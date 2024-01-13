@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar h3{
+    padding: 60px;
+    margin-left: 60px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.navbar-container{
+    display: flex;
+   padding: 60px;
+    gap: 5rem;
+    margin-right:  60px;
+}
+    
+.navbar-container a{
+    text-decoration: none;
+    list-style: none; 
+    color: black;
+    cursor: pointer; 
+    font-size: 20px; 
+    position: relative;
+}
+.navbar-container a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0%;
+    bottom: -6px;
+    transition: 0.2s all linear;
+}
+.navbar-container a:hover::after{
+    width: 100%;
+}
+.bx{
+    font-size: 40px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.home{
+    display: flex;
+    gap: 5rem; 
+    margin-top: 10px;
+    max-width: 100%;
+}
+.home .home-container{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.home .home-container .name{
+    font-size: 30px;
+    font-weight: 500;
+    
+}
+.home .home-container .button{
+    font-size: 40px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border-color: black ;
+    border-width: 3rem;
+    display: flex;
+    gap: 1rem;
+}
+.home .home-container .button .word{
+    color: rgba(60, 221, 233, 0.918);
+}
+.home .home-container .content{
+    font-size: 25px;
+    margin-top: 10px;
+    max-width: 600px;
+    align-content:center;
+}
+.home .img img{
+    height: 550px;
+    width: 500px;
+    margin-left: 80px;
+}
+.home .img{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.Portfolio{
+    position: relative;
+    max-width: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.Portfolio .Portfolio-heading{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.Portfolio .Portfolio-content{
+    background-color: #1b8325;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 70%;
+    margin-left: 15%;
+    border-radius: 20px;
+    opacity: 90%;
+    margin-bottom: 40px;
+}
+.Portfolio .Portfolio-content img{
+    width: 370px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 50px;
+}
+.Portfolio .Portfolio-content h2{
+    font-size: 30px;
+    color: azure;
+}
+.Portfolio .Portfolio-content p{
+    font-size: 20px;
+    color: azure;
+}
+.Portfolio .Portfolio-content button{
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    border-width: 0;
+    cursor: pointer;
+}
+.Portfolio .Portfolio-content button .bx{
+    font-size: 15px;
+}
+.Portfolio-content a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.Portfolio-content2{
+        background-color: #e8842c;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        max-width: 70%;
+        margin-left: 15%;
+        border-radius: 20px;
+        opacity: 90%;
+        margin-bottom: 40px;
+}
+.Portfolio .Portfolio-content2 img{
+    width: 370px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 50px;
+}
+.Portfolio .Portfolio-content2 h2{
+    font-size: 30px;
+    color: azure;
+}
+.Portfolio .Portfolio-content2 p{
+    font-size: 20px;
+    color: azure;
+}
+.Portfolio .Portfolio-content2 button{
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    border-width: 0;
+    cursor: pointer;
+}
+.Portfolio .Portfolio-content2 button .bx{
+    font-size: 15px;
+}
+.Portfolio-content2 a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.Portfolio-content3{
+    background-color: #4d42c9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 70%;
+    margin-left: 15%;
+    border-radius: 20px;
+    opacity: 90%;
+    margin-bottom: 40px;
+}
+.Portfolio .Portfolio-content3 img{
+width: 370px;
+height: 400px;
+padding: 20px;
+border-radius: 50px;
+}
+.Portfolio .Portfolio-content3 h2{
+font-size: 30px;
+color: azure;
+}
+.Portfolio .Portfolio-content3 p{
+font-size: 20px;
+color: azure;
+}
+.Portfolio .Portfolio-content3 button{
+padding: 10px;
+font-size: 15px;
+border-radius: 10px;
+border-width: 0;
+cursor: pointer;
+}
+.Portfolio .Portfolio-content3 button .bx{
+font-size: 15px;
+}
+.Portfolio-content3 a{
+text-decoration: none;
+color: rgb(0, 0, 0);
+}
+.footer .head{
+    background-color: black;
+    color: azure;
+    max-height: 60px;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+.footer h1{
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    padding: 100px;
+    color:  rgba(60, 221, 233, 0.918);
+}
+.footer .social-media{
+    padding-bottom: 50px;
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer .social-media .bx-right-arrow-alt{
+    font-size: 25px;
+}
+.footer .social-media .bx{
+    font-size: 25px;
+}
+
+
+.footer .social-media a{
+    text-decoration: none;
+    color: black;
+}
+.footer .social-media .Behance:hover{
+    color: rgba(23, 23, 166, 0.827);
+    transition: 0.2s all linear;
+}
+.footer .social-media .LinkedIn:hover{
+    color: rgb(70, 94, 248);
+    transition: 0.2s all linear;
+}
+.footer .social-media .Instagram:hover{
+    color: rgba(248, 62, 81, 0.853);
+    transition: 0.2s all linear;
+}
+.footer .copyright{
+    text-align: center;
+    padding: 20px;
+}
+
+
+
